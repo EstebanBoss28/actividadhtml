@@ -1,0 +1,28 @@
+#rojo{
+    color: red;
+    text-shadow: 4px 4px 4px;
+}
+
+#amador{
+    height: 300px;
+}
+
+#caja{
+    background-color: orange;
+    border: black solid 5px;
+    width: 200px;
+    position: relative;
+}
+
+
+#em{
+    font-size: 5em;
+}
+#ex{
+    font-size: 5ex;
+}
+
+
+#porcen{
+    font-size: 100%;
+}

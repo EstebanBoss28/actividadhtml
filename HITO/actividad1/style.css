@@ -1,0 +1,28 @@
+
+@media (max-width: 480px) {
+    #listado{
+        display: none;
+    }
+
+    body{
+        background-color: aqua;
+    }
+    
+}
+
+
+@media (max-width: 800px) {
+    body{
+        background-color: white;
+    }
+}
+
+@media (min-width: 800px) {
+    img{
+        width: 600px;
+    }
+
+    iframe{
+        display: none;
+    }
+}

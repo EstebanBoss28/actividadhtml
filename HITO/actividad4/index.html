@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Actividad 4</h1>
+    <form action="" method="POST" id="formulario" name="formulario">
+
+        <label for="correo">Introduce el email</label>
+        <input name="correo" type="email" id="correo">
+
+        <br>
+        <br>
+
+        <label for="ciudad">Introduce una ciudad</label>
+        <select name="ciudad" id="ciudad">
+
+            <option value="madrid">Madrid</option>
+            <option value="cuenca">Cuenca</option>
+            <option value="albacete">Albacete</option>
+
+        </select>
+        <br><br>
+
+        <!-- RADIO-->
+
+        <fieldset id="radio">
+            <legend>Elige el curso</legend>
+            <input type="radio" name="curso" id="curso1" value="curso 1">
+            <label for="curso1">Curso 1</label><br>
+            <input type="radio" name="curso" id="curso2" value="curso 2">
+            <label for="curso2">Curso 2</label><br>
+            <input type="radio" name="curso" id="curso3" value="curso 3">
+            <label for="curso3">Curso 3</label><br>
+            <br>
+
+            <input type="date" name="fecha" id="fecha" >
+
+        </fieldset>
+
+        <!-- CHECKBOX-->
+        <label for="privacidad">Marcando esta casilla aceptas nuestras políticas de privacidad</label>
+        <input type="checkbox" name="privacidad" id="" required>
+        
+        <!-- BOTON-->
+        <br>
+        <button onclick="mostrar()">Enviar datos</button>
+        
+    </form>
+
+
+    <script src="codigo.js"></script>
+</body>
+</html>

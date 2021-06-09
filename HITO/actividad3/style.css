@@ -1,0 +1,144 @@
+#logo{
+    width: 120px;
+    margin-left: 20px;
+
+}
+header{
+    box-shadow: 0 2px 20px -1px rgb(224, 223, 223);
+    height: 95px;
+
+}
+
+
+#buscar{
+    
+    box-shadow: 0 2px 20px -1px rgb(224, 223, 223);
+    border-radius: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+#buscar1{
+    padding-top: 10px;
+}
+
+#buscar2{
+    text-align: right;
+    
+    padding-right: 30px;
+    padding-top: 8px;
+}
+
+#lupa{
+    border-radius: 50%;
+    background-color: rgb(211, 57, 57);
+    width: 30px;
+    fill:none;
+    stroke:currentColor;
+    stroke-width:5.333333333333333;
+    overflow:visible;
+    padding: 8px;
+    color: white;
+}
+
+#mundo{
+    margin-top: 0px;
+    height: 16px; 
+    width: 16px; 
+    fill: currentcolor;
+}
+
+#derecha{
+    text-align: right;
+}
+
+#user{
+    height: 30px; width: 30px; fill: currentcolor;
+}
+#lineas{
+    fill: none; height: 16px; width: 16px; stroke: currentcolor; stroke-width: 3; overflow: visible;
+}
+
+#conten{
+    margin-top: 30px;
+    border-radius: 50px;
+    box-shadow: 0 2px 20px -1px rgb(224, 223, 223);
+
+}
+#anfitrion{
+    text-align: right;
+    margin-right: 10px;
+}
+
+#alojamientos{
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+#mapa{
+    height: 900px;
+    width: 700px;
+}
+
+
+#cajas{
+    margin-top: 30px;
+    text-align: center;
+}
+
+#caja1{
+    height: 40px;
+    border: grey solid 1px;
+    margin-left: 20px;
+    
+    border-radius: 50px;
+}
+
+#caja2{
+    height: 40px;
+    border: black solid 2px;
+    
+    border-radius: 50px;
+
+}
+
+#caja3{
+    height: 40px;
+    border: grey solid 1px;
+    
+    border-radius: 50px;
+
+}
+
+#caja4{
+    height: 40px;
+    border: grey solid 1px;
+    
+    border-radius: 50px;
+
+}
+
+#caja5{
+    height: 40px;
+    border: black solid 2px;
+    
+    border-radius: 50px;
+
+}
+
+#reservar{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+#valencia{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#mostrar{
+    margin-top: 30px;
+    margin-left: 20px;
+    text-align: right;
+
+}
